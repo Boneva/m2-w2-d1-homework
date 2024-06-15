@@ -50,11 +50,11 @@ header {
     color:rgb(211, 218, 240);
   }
   .cards {
-    max-width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-gap: 1rem;
-  }
+  max-width: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+}
   @media (min-width:600px) {
     .cards {grid-template-columns: repeat(2,1fr);}
   }
